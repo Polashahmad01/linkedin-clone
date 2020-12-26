@@ -1,0 +1,81 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.login > img {
+  object-fit: contain;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login > form > input {
+  width: 450px;
+  height: 45px;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+.login > form > button {
+  width: 450px;
+  height: 45px;
+  font-size: large;
+  color: #fff;
+  background-color: #0074ba;
+  border-radius: 30px;
+  margin-top: 10px;
+  border: 1px solid #0074ba;
+  outline: none;
+  cursor: pointer;
+  font-weight: 900;
+  transition: all 800ms ease-in-out;
+}
+
+.login > form > button:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.login > form > input:focus {
+  border: 1px solid #1b6598;
+}
+
+.login__register {
+  color: #0177b7;
+  cursor: pointer;
+}
+
+.login p {
+  margin-top: 20px;
+}
+
+.login > form > input::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.login > form > input::-moz-placeholder {
+  color: pink;
+}
+
+.login > form > input:-ms-input-placeholder {
+  color: pink;
+}
+
+.login > form > input:-moz-placeholder {
+  /* Firefox 18- */
+  color: pink;
+}
